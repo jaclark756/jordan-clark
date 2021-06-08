@@ -1,1 +1,6 @@
-/* You can add global styles to this file, and also import other style files */
+@import url("https://fonts.googleapis.com/css2?family=Dosis:wght@200&family=Montserrat&family=Playfair+Display&display=swap");
+
+
+html {
+    background-color: #DBD7D2;
+}

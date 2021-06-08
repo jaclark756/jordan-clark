@@ -1,0 +1,11 @@
+.intro-text {
+    display: flex;
+    justify-content: flex-start;
+    width: 70%;
+    margin: auto;
+}
+
+.grid-container {
+    max-width: 60%;
+    margin: auto;
+}
