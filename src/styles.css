@@ -1,6 +1,18 @@
-@import url("https://fonts.googleapis.com/css2?family=Dosis:wght@200&family=Montserrat&family=Playfair+Display&display=swap");
-
-
 html {
-    background-color: #DBD7D2;
+  background-color: #e8e4df;
+}
+
+h1 {
+  font-family: 'Dosis', sans-serif;
+  font-size: 36px;
+  color: #6d848f;
+}
+
+h2,
+h3 {
+  font-family: "Montserrat", sans-serif;
+}
+
+p {
+  font-family: "Roboto", sans-serif;
 }

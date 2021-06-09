@@ -1,0 +1,9 @@
+.about {
+    background-color: #8F867B;
+    display: flex;
+    justify-content: flex-start;
+}
+
+img {
+    margin: 50px;
+}
