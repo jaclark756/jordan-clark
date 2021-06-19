@@ -14,6 +14,9 @@ import { AboutComponent } from './components/about/about.component';
 import { ProjectDialogComponent } from './components/project-dialog/project-dialog.component';
 import { MatDialogModule } from '@angular/material/dialog';
 import { MatChipsModule } from '@angular/material/chips';
+import { ExperienceComponent } from './components/experience/experience.component';
+import { MatCardModule } from '@angular/material/card';
+
 
 
 @NgModule({
@@ -23,7 +26,8 @@ import { MatChipsModule } from '@angular/material/chips';
     HeaderComponent,
     FooterComponent,
     AboutComponent,
-    ProjectDialogComponent
+    ProjectDialogComponent,
+    ExperienceComponent
   ],
   imports: [
     BrowserModule,
@@ -34,7 +38,8 @@ import { MatChipsModule } from '@angular/material/chips';
     MatIconModule,
     MatDividerModule,
     MatDialogModule,
-    MatChipsModule
+    MatChipsModule,
+    MatCardModule
   ],
   providers: [],
   bootstrap: [AppComponent]

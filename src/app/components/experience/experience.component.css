@@ -1,0 +1,25 @@
+.card-container {
+    display: grid;
+    grid-template-columns: 80%;
+    row-gap: 15px;
+    justify-items: center;
+    justify-content: center;
+    margin: 0 auto 50px auto;
+   }
+
+::ng-deep .mat-card {
+    max-width: 60%;
+    background-color: #8F867B;
+    margin: auto;
+  }
+
+  ::ng-deep .mat-card-footer {
+      text-align: right;
+  }
+
+  img {
+    max-height: 50px;
+    margin: 5px;
+    object-fit: cover;
+    overflow: hidden;
+  }
