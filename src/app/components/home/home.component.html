@@ -6,7 +6,7 @@
     <ng-container *ngFor="let project of projects">
         <div class="projects">
             <img src="{{project.imgUrl}}" (click)="openProject(project)">
-            <span class="icon-focus-overlay" tabindex="0" (keydown.enter)="openProject(project)"></span>
+            <!-- <span class="icon-focus-overlay" tabindex="0" (keydown.enter)="openProject(project)"></span> -->
             <h2 class="title">{{project.title}}</h2>
         </div>
     </ng-container>

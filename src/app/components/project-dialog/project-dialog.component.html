@@ -1,4 +1,5 @@
-<h2 mat-dialog-title>{{project?.title}}</h2>
+<a href="{{project.url}}" target="_blank"><h2 mat-dialog-title>{{project?.title}}</h2></a>
+<a href="{{project.repoUrl}}" target="_blank">Repository<i class="fas fa-external-link-square-alt repo" aria-hidden="true"></i></a>
 <mat-dialog-content>
     <mat-divider></mat-divider>
    <p>{{project?.description}}</p>
