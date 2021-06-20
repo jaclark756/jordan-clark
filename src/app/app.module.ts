@@ -16,6 +16,8 @@ import { MatDialogModule } from '@angular/material/dialog';
 import { MatChipsModule } from '@angular/material/chips';
 import { ExperienceComponent } from './components/experience/experience.component';
 import { MatCardModule } from '@angular/material/card';
+import { MatListModule } from '@angular/material/list';
+
 
 
 
@@ -39,7 +41,8 @@ import { MatCardModule } from '@angular/material/card';
     MatDividerModule,
     MatDialogModule,
     MatChipsModule,
-    MatCardModule
+    MatCardModule,
+    MatListModule
   ],
   providers: [],
   bootstrap: [AppComponent]
