@@ -1,10 +1,13 @@
 <div class="intro-text">
-    <!-- <h2>Good UX/UI is about humanizing technology. How do we make it easier for the busy user? </h2> -->
+    <h2>People are going to make meaning out of their experience no matter what we do. People are going to take from our
+        designs what they need from it in their experience. <br>~ Pamela Pavliscak</h2>
 </div>
 <div class="grid-container">
     <ng-container *ngFor="let project of projects">
         <div class="projects">
             <img src="{{project.imgUrl}}" (click)="openProject(project)">
-            </div>
+            <span class="icon-focus-overlay" tabindex="0" (keydown.enter)="openProject(project)"></span>
+            <h3 class="title">{{project.title}}</h3>
+        </div>
     </ng-container>
 </div>
