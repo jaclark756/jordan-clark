@@ -2,24 +2,9 @@
     <!-- <h2>Good UX/UI is about humanizing technology. How do we make it easier for the busy user? </h2> -->
 </div>
 <div class="grid-container">
-    <mat-grid-list cols="3" rowHeight="2:1">
-        <mat-grid-tile (click)="openProject()"><img src="assets/images/recime.PNG"></mat-grid-tile>
-        <mat-grid-tile><img src="assets/images/catalog.PNG"></mat-grid-tile>
-        <mat-grid-tile><img src="assets/images/styleguide.PNG"></mat-grid-tile>
-        <mat-grid-tile><img src="assets/images/movies.PNG"></mat-grid-tile>
-        <mat-grid-tile><img src="assets/images/husqr.PNG"></mat-grid-tile>
-        <mat-grid-tile><img src="assets/images/wireframes.PNG"></mat-grid-tile>
-    </mat-grid-list>
+    <ng-container *ngFor="let project of projects">
+        <div class="projects">
+            <img src="{{project.imgUrl}}" (click)="openProject(project)">
+            </div>
+    </ng-container>
 </div>
-
-<!-- experience and education -->
-<!-- variable size images -->
-<!-- <mat-grid-list cols="4" rowHeight="100px">
-    <mat-grid-tile
-        *ngFor="let tile of tiles"
-        [colspan]="tile.cols"
-        [rowspan]="tile.rows"
-        [style.background]="tile.color">
-      {{tile.text}}
-    </mat-grid-tile>
-  </mat-grid-list> -->

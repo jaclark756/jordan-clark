@@ -1,9 +1,8 @@
 export interface Project {
 
-    id: string;
-    title: string;
+      title: string;
     description: string;
     imgUrl: string;
-    frameworks: any[];
-    
+    frameworks?: any[];
+
 }

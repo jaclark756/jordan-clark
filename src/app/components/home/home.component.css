@@ -9,6 +9,8 @@
 .grid-container {
     max-width: 60%;
     margin: 120px auto 200px auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
 }
 
 img {
