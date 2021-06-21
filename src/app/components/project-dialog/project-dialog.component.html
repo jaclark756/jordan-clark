@@ -1,16 +1,15 @@
 <a href="{{project.url}}" target="_blank"><h2 mat-dialog-title>{{project?.title}}</h2></a>
-<a href="{{project.repoUrl}}" target="_blank">Repository<i class="fas fa-external-link-square-alt repo" aria-hidden="true"></i></a>
+<div class="repo">
+<a href="{{project.repoUrl}}" target="_blank">Repository<i class="fas fa-external-link-square-alt" aria-hidden="true"></i></a>
+</div>
 <mat-dialog-content>
     <mat-divider></mat-divider>
    <p>{{project?.description}}</p>
     <div class="button-container">
-        <a href="https://trailblazer.me/id/jaclark7"
-            target="_blank"><i class="fab fa-github" aria-hidden="true"></i></a>
-            <mat-chip-list>
-                <mat-chip>Angular</mat-chip>
-                <mat-chip>HTML</mat-chip>
-                <mat-chip>CSS</mat-chip>
-                <mat-chip>TypeScript</mat-chip>
-              </mat-chip-list>
+              <mat-chip-list *ngFor="let framework of project.frameworks">
+                  <mat-chip></mat-chip>
+                             </mat-chip-list>
     </div>
 </mat-dialog-content>
+
+402-559-9040
