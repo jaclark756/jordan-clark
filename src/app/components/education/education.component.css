@@ -8,14 +8,15 @@
 
 .education-card {
     width: 400px;
-   height: 150px;
+    height: 150px;
     margin: 10px;
     background-color: #8F867B;
 }
 
 .mcc-logo {
     background-image: url("https://firebasestorage.googleapis.com/v0/b/jordan-clark-personal-site.appspot.com/o/images%2Fmlogo.png?alt=media&token=a5df70b1-4707-4fc9-9be0-57d476e3236c");
-    background-size: cover;
+    background-size: 42px;
+    background-repeat: no-repeat;
 }
 
 .uno-logo{
@@ -30,5 +31,8 @@
 
 ::ng-deep .mat-card-avatar {
     border-radius: 0% !important;
+    width: 46px !important;
+    height: 45px !important;
 }
+
 
