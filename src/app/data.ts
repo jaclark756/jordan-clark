@@ -10,7 +10,7 @@ export const PROJECTS = [
 
     {
         title: "HUSQR SOCIAL MEDIA APP",
-        description: "Think Twitter.  We used Spring Boot backend, Angular front end to allow users to create Husqs, find friends, and interact with other Husqrs.",
+        description: "Think Twitter but corn-fed.  Used Spring Boot backend, Angular front end to allow users to create Husqs, find friends, and interact with other Husqrs.",
         url: "google.com",
         imgUrl: "https://firebasestorage.googleapis.com/v0/b/jordan-clark-personal-site.appspot.com/o/images%2Fhusqr.PNG?alt=media&token=bcf3f5db-ab28-4479-936b-157267739922",
         repoUrl: "https://gitlab.mccinfo.net/jaclark7/husqr-angular-java",
