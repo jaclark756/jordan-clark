@@ -1,0 +1,44 @@
+.education {
+    background-color: #8F867B;
+    margin-bottom: 100px;
+}
+
+.education-cards {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin: 50px 20px 100px 20px;
+    flex-direction: row;
+    background-color: #8F867B;
+}
+
+.education-card {
+    width: 400px;
+    height: 150px;
+    margin: 10px;
+    background-color: #fff;
+}
+
+.mcc-logo {
+    background-image: url("https://firebasestorage.googleapis.com/v0/b/jordan-clark-personal-site.appspot.com/o/images%2Fmlogo.png?alt=media&token=a5df70b1-4707-4fc9-9be0-57d476e3236c");
+    background-size: 42px;
+    background-repeat: no-repeat;
+}
+
+.uno-logo{
+    background-image: url("https://firebasestorage.googleapis.com/v0/b/jordan-clark-personal-site.appspot.com/o/images%2Funo.png?alt=media&token=f87c2a79-7478-473f-8ae8-3fcff0f81b3f");
+    background-size: cover;
+}
+
+.unl-logo {
+    background-image: url("https://firebasestorage.googleapis.com/v0/b/jordan-clark-personal-site.appspot.com/o/images%2Funl.png?alt=media&token=3e7964da-9603-46c4-93ef-d3e4834e4f15");
+    background-size: cover;
+}
+
+::ng-deep .mat-card-avatar {
+    border-radius: 0% !important;
+    width: 46px !important;
+    height: 45px !important;
+}
+
+
