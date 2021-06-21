@@ -1,16 +1,22 @@
 .education {
+    background-color: #8F867B;
+    margin-bottom: 100px;
+}
+
+.education-cards {
     display: flex;
     justify-content: flex-start;
     align-items: flex-start;
-    margin: 0 20px 50px 20px;
+    margin: 50px 20px 100px 20px;
     flex-direction: row;
+    background-color: #8F867B;
 }
 
 .education-card {
     width: 400px;
     height: 150px;
     margin: 10px;
-    background-color: #8F867B;
+    background-color: #fff;
 }
 
 .mcc-logo {
