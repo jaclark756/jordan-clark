@@ -1,10 +1,28 @@
+.experience {
+  width: 80%;
+  display: inline-flex;
+  justify-content: start;
+  margin: 0 !important;
+}
+
+.competencies {
+  margin-left: 20px;
+  margin-top: 0;
+  width: 20%;
+}
+
+::ng-deep .mat-list-item-content {
+  padding: 0 !important;
+}
+
 .card-container {
     display: grid;
+    width: 100%;
     grid-template-columns: 80%;
     row-gap: 15px;
-    justify-items: center;
-    justify-content: center;
-    margin: 0 auto 50px auto;
+    justify-items:end;
+    justify-content: end;
+    margin: 0 20px 50px 0;
    }
 
 .experience-card{
