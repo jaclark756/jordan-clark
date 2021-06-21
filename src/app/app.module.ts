@@ -16,6 +16,8 @@ import { MatDialogModule } from '@angular/material/dialog';
 import { MatChipsModule } from '@angular/material/chips';
 import { ExperienceComponent } from './components/experience/experience.component';
 import { MatCardModule } from '@angular/material/card';
+import { EducationComponent } from './components/education/education.component';
+
 
 
 
@@ -27,7 +29,8 @@ import { MatCardModule } from '@angular/material/card';
     FooterComponent,
     AboutComponent,
     ProjectDialogComponent,
-    ExperienceComponent
+    ExperienceComponent,
+    EducationComponent
   ],
   imports: [
     BrowserModule,

@@ -7,10 +7,10 @@
     margin: 0 auto 50px auto;
    }
 
-::ng-deep .mat-card {
-    max-width: 60%;
+.experience-card{
+    max-width: 60% !important;
     background-color: #8F867B;
-    margin: auto;
+    margin: auto !important;
   }
 
   ::ng-deep .mat-card-footer {
