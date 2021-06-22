@@ -5,6 +5,10 @@ a {
     font-size: 18px;
 }
 
+a:hover {
+    cursor: pointer;
+}
+
 .spacer {
     flex: 1 1 auto;
   }

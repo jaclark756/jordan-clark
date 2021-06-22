@@ -1,11 +1,10 @@
 <mat-toolbar>
-    <a href="#">ABOUT</a>
-    <a href="#">PROJECTS</a>
-    <a href="#">EDUCATION</a>
+    <a (click)="getSection('about')">ABOUT</a>
+    <a (click)="getSection('education')">EDUCATION</a>
     <span class="spacer"></span>
     <h1 class="name">JORDAN CLARK</h1>
     <span class="spacer"></span>
-    <a href="#">EXPERIENCE</a>
-    <a href="#">CONTACT</a>
+    <a (click)="getSection('experience')">EXPERIENCE</a>
+    <a (click)="getSection('contact')">CONTACT</a>
 </mat-toolbar>
   

@@ -18,8 +18,13 @@ import { ExperienceComponent } from './components/experience/experience.componen
 import { MatCardModule } from '@angular/material/card';
 import { MatListModule } from '@angular/material/list';
 import { EducationComponent } from './components/education/education.component';
+import { RouterModule, Routes } from '@angular/router';
 
 
+const routes: Routes = [
+  { path: '', component: AppComponent },
+
+]
 
 
 
@@ -35,6 +40,7 @@ import { EducationComponent } from './components/education/education.component';
     EducationComponent
   ],
   imports: [
+    RouterModule.forRoot(routes, {anchorScrolling:'enabled'}),
     BrowserModule,
     MatToolbarModule,
     BrowserAnimationsModule,
@@ -45,7 +51,7 @@ import { EducationComponent } from './components/education/education.component';
     MatDialogModule,
     MatChipsModule,
     MatCardModule,
-    MatListModule
+    MatListModule    
   ],
   providers: [],
   bootstrap: [AppComponent]
