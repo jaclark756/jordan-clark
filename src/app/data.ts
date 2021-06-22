@@ -48,7 +48,7 @@ export const PROJECTS = [
         description: "Site dedicated to showcasing the work and experience of Jordan Clark (me!).",
         url: "https://jordan-clark-personal-site.web.app/",
         imgUrl: "https://firebasestorage.googleapis.com/v0/b/jordan-clark-personal-site.appspot.com/o/images%2Fpersonalsite.PNG?alt=media&token=36fa030c-41aa-445a-ab60-3a7ac2fa95fd",
-        repoUrl: "https://github.com/jaclark756/jordan-clark/tree/main",
+        repoUrl: "https://github.com/jaclark756/jordan-clark",
         frameworks: ["Firebase", "Angular", "Angular Material", "HTML", "CSS"]
     },
 ]
