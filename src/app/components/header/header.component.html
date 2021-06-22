@@ -1,4 +1,4 @@
-<mat-toolbar>
+<mat-toolbar class="header">
     <a (click)="getSection('about')">ABOUT</a>
     <a (click)="getSection('education')">EDUCATION</a>
     <span class="spacer"></span>
@@ -7,4 +7,16 @@
     <a (click)="getSection('experience')">EXPERIENCE</a>
     <a (click)="getSection('contact')">CONTACT</a>
 </mat-toolbar>
-  
+    <mat-toolbar class="mobile-header">
+        <h1 class="name">JORDAN CLARK</h1>
+        <button mat-icon-button [matMenuTriggerFor]="menu" class="menu-button">
+            <i class="fas fa-bars"></i>
+          </button>
+        <mat-menu #menu="matMenu">
+            <button mat-menu-item (click)="getSection('about')">ABOUT</button>
+            <button mat-menu-item (click)="getSection('education')">EDUCATION</button>
+            <button mat-menu-item (click)="getSection('experience')">EXPERIENCE</button>
+            <button mat-menu-item (click)="getSection('contact')">CONTACT</button>
+        </mat-menu>
+           </mat-toolbar>
+    

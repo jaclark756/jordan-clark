@@ -19,13 +19,15 @@ import { MatCardModule } from '@angular/material/card';
 import { MatListModule } from '@angular/material/list';
 import { EducationComponent } from './components/education/education.component';
 import { RouterModule, Routes } from '@angular/router';
+import { MatMenuModule } from '@angular/material/menu';
+
+
 
 
 const routes: Routes = [
   { path: '', component: AppComponent },
 
 ]
-
 
 
 @NgModule({
@@ -40,7 +42,7 @@ const routes: Routes = [
     EducationComponent
   ],
   imports: [
-    RouterModule.forRoot(routes, {anchorScrolling:'enabled'}),
+    RouterModule.forRoot(routes, { anchorScrolling: 'enabled' }),
     BrowserModule,
     MatToolbarModule,
     BrowserAnimationsModule,
@@ -51,7 +53,8 @@ const routes: Routes = [
     MatDialogModule,
     MatChipsModule,
     MatCardModule,
-    MatListModule    
+    MatListModule,
+    MatMenuModule
   ],
   providers: [],
   bootstrap: [AppComponent]

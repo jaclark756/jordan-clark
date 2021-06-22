@@ -1,23 +1,46 @@
+.mat-toolbar {
+  display: flex;
+}
+
+.mobile-header {
+  display: none;
+}
+
 h1 {
-    color: #8F867B !important;
-  }
+  color: #8f867b !important;
+}
 
 a {
-    margin: 0 10px 0 10px;
-    text-decoration: none;
-    color: #000;
-    font-size: 18px;
+  margin: 0 10px 0 10px;
+  text-decoration: none;
+  color: #000;
+  font-size: 18px;
 }
 
 a:hover {
-    cursor: pointer;
+  cursor: pointer;
 }
 
 .spacer {
-    flex: 1 1 auto;
+  flex: 1 1 auto;
+}
+
+.name {
+  font-size: 36px;
+}
+
+@media only screen and (max-width: 742px) {
+  .header {
+    display: none;
   }
-  
+
+  .mobile-header {
+    display: flex;
+    justify-content: center;
+    padding: 0;
+  }
 
   .name {
-      font-size: 36px;
+    margin: 0 20px 0 20px;
   }
+}
