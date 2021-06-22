@@ -15,8 +15,8 @@ h1 {
   width: 20%;
 }
 
-.competencies-mobile {
-  visibility: hidden;
+.mobile-competencies {
+  display: none;
 }
 
 ::ng-deep .mat-list-item-content {
