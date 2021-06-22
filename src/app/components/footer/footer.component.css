@@ -30,6 +30,10 @@
     padding: 50px 0 50px 0;
   }
 
+  .mobile-contact {
+      display: none;
+  }
+
   ul {
     list-style-type: none;
   }
@@ -46,4 +50,23 @@
   a {
       text-decoration: none;
       color: #D3D8DB;
+  }
+
+
+  @media only screen and (max-width: 742px) {
+
+    .contact {
+       display: none;
+      }
+
+      .addresses {
+          display: flex;
+      }
+
+      .mobile-contact {
+        display: flex;
+        justify-content: space-around;
+        width: 100%;
+        margin: auto;
+      }
   }
