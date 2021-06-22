@@ -22,7 +22,7 @@ export const PROJECTS = [
         description: "Standalone application that breaks down color scheme, fonts, Angular Material components, and provides developers with the necessary code snippets.",
         url: "https://styleguide-1a7ea.firebaseapp.com/",
         imgUrl: "https://firebasestorage.googleapis.com/v0/b/jordan-clark-personal-site.appspot.com/o/images%2Fstyleguide.PNG?alt=media&token=14fffdb9-226d-4903-9969-6d163662da00",
-        repoUrl: "https://gitlab.mccinfo.net/cjcortney/recipe-app-styleguide",
+        repoUrl: "https://github.com/jaclark756/style-guide",
         frameworks: ["Angular", "Angular Material", "HTML", "CSS"]
     },
 
@@ -31,7 +31,7 @@ export const PROJECTS = [
         description: "Spring Boot application that showcases movies, actors, credits.",
         url: "https://mcc-movies.herokuapp.com/",
         imgUrl: "https://firebasestorage.googleapis.com/v0/b/jordan-clark-personal-site.appspot.com/o/images%2Fmovies.PNG?alt=media&token=1ea3fe28-62d7-4623-8599-2598cacbd766",
-        repoUrl: "https://gitlab.mccinfo.net/cjcortney/movies-project",
+        repoUrl: "https://github.com/jaclark756/movie-project",
         frameworks: ["Java", "Spring Boot", "Bootstrap", "Thymeleaf"]
     },
 
@@ -40,7 +40,7 @@ export const PROJECTS = [
         description: "Final project for MCC Code School.  The app is designed to cut down on the fluff for users looking for recipes. Users are able to sort and filter recipes to find exactly what they are looking for, as well as create their own recipes and save to the database.",
         url: "https://dev.recipe.mcc-code-school.com/",
         imgUrl: "https://firebasestorage.googleapis.com/v0/b/jordan-clark-personal-site.appspot.com/o/images%2Frecime.PNG?alt=media&token=afe272ca-a769-4467-b414-54eccb51d03b",
-        repoUrl: "https://gitlab.mccinfo.net/code-school/students/recipe-app",
+        repoUrl: "https://github.com/jaclark756/recipe-app",
         frameworks: ["Angular", "Angular Material", "HTML", "CSS"]
     },
     {
